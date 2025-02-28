@@ -32,7 +32,7 @@ function MainSlider() {
         setCurrentSlide(current => 
           current === slides.length - 1 ? 0 : current + 1
         );
-      }, 3000); // Change slide every 5 seconds
+      }, 3000); // Change slide every 3 seconds
     }
     return () => clearInterval(interval);
   }, [isAutoPlaying]);
